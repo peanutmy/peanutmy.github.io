@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio website</title>
+    <link rel="stylesheet" type="text/css" href="person.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;
+    0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class = "person">
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#">Home</li>
+                <li><a href="#About-me">About Me</li>
+                <li><a href="#projectslink">Projects</li>
+                <li><a href="#contactme">Contact me</li>    
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Xinliang Li</h1>
+            <h3>From Northwestern University</h3>
+            <a href="#About-me" class="btn">About me</a>
+    
+    
+        </div>
+    </div>
+
+
+    <section class="About" id="About-me">
+        <div class="main">
+            <img src="img/4.png">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello, my name is Xinliang Li. A student from Northwestern University and 
+                I majored in Electrical Engineering</p>
+                <button type="button" ><a href="https://drive.google.com/file/d/1M-ONms304d43T2kJZFmtcqHinzlRKRUs/view?usp=sharing">My resume</a></button>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <div class="projects" id="projectslink">
+        <div class="title">
+            <h2>My projects</h2>
+
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-bars"></i>
+                <h5>Make Moving Robot and 3D Assemblies with Light and Shade</h5>
+                <div class="pra">
+                    <p>This project create a robot with two arms (with pinches)
+                         and two legs in one VBO on the GPU using WebGL primitives. Using Sequences 
+                         of 3D transformations and drawing calls to link together 3D parts into kinds of animated, jointed 3D
+                         assemblies using Javascrip. </p>
+
+                    <p style="text-align:center">
+                        <a class="button" href="https://peanutmy.github.io/ProjC/"> Learn more</a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-solid fa-user"></i>
+                <h5>Ants VS. SomeBees Tower Defense Game</h5>
+                <div class="pra">
+                    <p>Implemented Basic gameplay with two types of ants, one can harvest the food and one can attack nearest bees, complete the code of 
+                        Place, which have exit and entrance which allows bees to move. Define the armor 
+                        of bees and the hit action of them. Implemented several different Ants with different offensive capabilities like Fire ants and Ninja ants.
+                    </p>
+
+                    <p style="text-align:center">
+                        <a class="button" href="#"> Learn more</a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <i class="fa-solid fa-star"></i>
+                <h5>Land Use Scene Classification</h5>
+                <div class="pra">
+                    <p>Find well labeled data with necessary detailed attributes, visualized the data to absorb 
+                        information quickly and process the images to get more features. Use the threshold function to do the binarization to filter out 
+                        lager and smaller pixels to remove the noise. Using fully-connected layer and softmax activation to get 
+                        probabilities of input being in a particular land class.</p>
+
+                    <p style="text-align:center">
+                        <a class="button" href="#"> Learn more</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="contact-me" id="contactme">
+        <h2>Contact Me</h2>
+        <div class="newslatter">
+            <form>
+                <input type="email" name="name" id="name" placeholder="Enter your name">
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+                <input type="emial" name="message" id="message" placeholder="Enter your message">
+                <input type="submit" name="submit" value="Let's Start">
+            </form>
+        </div>
+        <div class="info">
+        <a href="https://www.linkedin.com/in/xinliang-li-6b5aaa252/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/peanutmy"><i class="fa-brands fa-github"></i></a>
+    </div>
+    </div>
+
+</body>
+</html>
