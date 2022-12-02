@@ -1,2 +1,2 @@
 # peanutmy.github.io
-Hi
+https://peanutmy.github.io/ProjC/
